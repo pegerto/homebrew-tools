@@ -7,7 +7,7 @@ cask "gcc-arm-embedded" do
   gcc_version = nil
   on_arm do
     version "12.2.Rel1"
-    sha256 "b93712026cec9f98a5d98dfec84e8096d32be3759642381e1982c4a5d2aa020b"
+    sha256 "224aa516be8329cdc5a65c4649b27fcb9d0e929aec096eeecd9cefc45dafe61e"
     pkg_version = "12.2.Rel1"
     gcc_version = "12.2"
     livecheck do
@@ -18,7 +18,7 @@ cask "gcc-arm-embedded" do
   
   on_intel do
     version "11.3"
-    sha256 "5d2e9ee4e73350bda79accc69fcd5ee59ccb902804a3f81a01d4c543b1ad7de7"
+    sha256 "TBC"
     pkg_version = "12.2.Rel1"
     gcc_version = "12.2"
     livecheck do
