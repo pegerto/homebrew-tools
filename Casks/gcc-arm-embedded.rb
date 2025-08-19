@@ -9,7 +9,7 @@ cask "gcc-arm-embedded" do
     version "12.2.Rel1"
     sha256 "224aa516be8329cdc5a65c4649b27fcb9d0e929aec096eeecd9cefc45dafe61e"
     pkg_version = "12.2.Rel1"
-    gcc_version = "12.2"
+    gcc_version = "12.1"
     livecheck do
       url "https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads"
       regex(/href=.*?arm-gnu-toolchain-(\d+\.\d+\.\w+)-darwin-(?:\w+)-arm-none-eabi\.pkg/i)
